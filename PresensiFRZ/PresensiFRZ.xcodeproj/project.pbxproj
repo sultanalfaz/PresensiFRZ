@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E151403280E6ACC00977257 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E151402280E6ACC00977257 /* HomePageView.swift */; };
+		3E151405280E6AEF00977257 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E151404280E6AEF00977257 /* ForgotPasswordView.swift */; };
+		3E151407280E6B2000977257 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E151406280E6B2000977257 /* SignUpView.swift */; };
+		3E151409280E71A800977257 /* HistoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E151408280E71A800977257 /* HistoryPage.swift */; };
+		3E15140B280E71EE00977257 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15140A280E71EE00977257 /* ProfilePageView.swift */; };
+		3E15140D280E721B00977257 /* EnterAbsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15140C280E721A00977257 /* EnterAbsentView.swift */; };
+		3E15140F280E727300977257 /* OutAbsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15140E280E727300977257 /* OutAbsentView.swift */; };
+		3E240E72280D0F1F009A0F45 /* PresensiFRZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E240E71280D0F1F009A0F45 /* PresensiFRZApp.swift */; };
+		3E240E74280D0F1F009A0F45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E240E73280D0F1F009A0F45 /* ContentView.swift */; };
+		3E240E76280D0F22009A0F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E240E75280D0F22009A0F45 /* Assets.xcassets */; };
+		3E240E79280D0F22009A0F45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E240E78280D0F22009A0F45 /* Preview Assets.xcassets */; };
+		3E240E83280D0F22009A0F45 /* PresensiFRZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E240E82280D0F22009A0F45 /* PresensiFRZTests.swift */; };
+		3E240E8D280D0F22009A0F45 /* PresensiFRZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E240E8C280D0F22009A0F45 /* PresensiFRZUITests.swift */; };
+		3E240E8F280D0F22009A0F45 /* PresensiFRZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E240E8E280D0F22009A0F45 /* PresensiFRZUITestsLaunchTests.swift */; };
+		3E240E9C280D1E3C009A0F45 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E240E9B280D1E3C009A0F45 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E240E7F280D0F22009A0F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E240E66280D0F1F009A0F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E240E6D280D0F1F009A0F45;
+			remoteInfo = PresensiFRZ;
+		};
+		3E240E89280D0F22009A0F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E240E66280D0F1F009A0F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E240E6D280D0F1F009A0F45;
+			remoteInfo = PresensiFRZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E151402280E6ACC00977257 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		3E151404280E6AEF00977257 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		3E151406280E6B2000977257 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3E151408280E71A800977257 /* HistoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPage.swift; sourceTree = "<group>"; };
+		3E15140A280E71EE00977257 /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
+		3E15140C280E721A00977257 /* EnterAbsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAbsentView.swift; sourceTree = "<group>"; };
+		3E15140E280E727300977257 /* OutAbsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutAbsentView.swift; sourceTree = "<group>"; };
+		3E240E6E280D0F1F009A0F45 /* PresensiFRZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresensiFRZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E240E71280D0F1F009A0F45 /* PresensiFRZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresensiFRZApp.swift; sourceTree = "<group>"; };
+		3E240E73280D0F1F009A0F45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E240E75280D0F22009A0F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E240E78280D0F22009A0F45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E240E7E280D0F22009A0F45 /* PresensiFRZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresensiFRZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E240E82280D0F22009A0F45 /* PresensiFRZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresensiFRZTests.swift; sourceTree = "<group>"; };
+		3E240E88280D0F22009A0F45 /* PresensiFRZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresensiFRZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E240E8C280D0F22009A0F45 /* PresensiFRZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresensiFRZUITests.swift; sourceTree = "<group>"; };
+		3E240E8E280D0F22009A0F45 /* PresensiFRZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresensiFRZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E240E9B280D1E3C009A0F45 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E240E6B280D0F1F009A0F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E240E7B280D0F22009A0F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E240E85280D0F22009A0F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E240E65280D0F1F009A0F45 = {
+			isa = PBXGroup;
+			children = (
+				3E240E70280D0F1F009A0F45 /* PresensiFRZ */,
+				3E240E81280D0F22009A0F45 /* PresensiFRZTests */,
+				3E240E8B280D0F22009A0F45 /* PresensiFRZUITests */,
+				3E240E6F280D0F1F009A0F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E240E6F280D0F1F009A0F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E240E6E280D0F1F009A0F45 /* PresensiFRZ.app */,
+				3E240E7E280D0F22009A0F45 /* PresensiFRZTests.xctest */,
+				3E240E88280D0F22009A0F45 /* PresensiFRZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E240E70280D0F1F009A0F45 /* PresensiFRZ */ = {
+			isa = PBXGroup;
+			children = (
+				3E240E71280D0F1F009A0F45 /* PresensiFRZApp.swift */,
+				3E240E73280D0F1F009A0F45 /* ContentView.swift */,
+				3E151406280E6B2000977257 /* SignUpView.swift */,
+				3E151402280E6ACC00977257 /* HomePageView.swift */,
+				3E15140A280E71EE00977257 /* ProfilePageView.swift */,
+				3E151408280E71A800977257 /* HistoryPage.swift */,
+				3E15140C280E721A00977257 /* EnterAbsentView.swift */,
+				3E15140E280E727300977257 /* OutAbsentView.swift */,
+				3E151404280E6AEF00977257 /* ForgotPasswordView.swift */,
+				3E240E9B280D1E3C009A0F45 /* SplashScreenView.swift */,
+				3E240E75280D0F22009A0F45 /* Assets.xcassets */,
+				3E240E77280D0F22009A0F45 /* Preview Content */,
+			);
+			path = PresensiFRZ;
+			sourceTree = "<group>";
+		};
+		3E240E77280D0F22009A0F45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E240E78280D0F22009A0F45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E240E81280D0F22009A0F45 /* PresensiFRZTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E240E82280D0F22009A0F45 /* PresensiFRZTests.swift */,
+			);
+			path = PresensiFRZTests;
+			sourceTree = "<group>";
+		};
+		3E240E8B280D0F22009A0F45 /* PresensiFRZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E240E8C280D0F22009A0F45 /* PresensiFRZUITests.swift */,
+				3E240E8E280D0F22009A0F45 /* PresensiFRZUITestsLaunchTests.swift */,
+			);
+			path = PresensiFRZUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E240E6D280D0F1F009A0F45 /* PresensiFRZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E240E92280D0F22009A0F45 /* Build configuration list for PBXNativeTarget "PresensiFRZ" */;
+			buildPhases = (
+				3E240E6A280D0F1F009A0F45 /* Sources */,
+				3E240E6B280D0F1F009A0F45 /* Frameworks */,
+				3E240E6C280D0F1F009A0F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresensiFRZ;
+			productName = PresensiFRZ;
+			productReference = 3E240E6E280D0F1F009A0F45 /* PresensiFRZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E240E7D280D0F22009A0F45 /* PresensiFRZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E240E95280D0F22009A0F45 /* Build configuration list for PBXNativeTarget "PresensiFRZTests" */;
+			buildPhases = (
+				3E240E7A280D0F22009A0F45 /* Sources */,
+				3E240E7B280D0F22009A0F45 /* Frameworks */,
+				3E240E7C280D0F22009A0F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E240E80280D0F22009A0F45 /* PBXTargetDependency */,
+			);
+			name = PresensiFRZTests;
+			productName = PresensiFRZTests;
+			productReference = 3E240E7E280D0F22009A0F45 /* PresensiFRZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E240E87280D0F22009A0F45 /* PresensiFRZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E240E98280D0F22009A0F45 /* Build configuration list for PBXNativeTarget "PresensiFRZUITests" */;
+			buildPhases = (
+				3E240E84280D0F22009A0F45 /* Sources */,
+				3E240E85280D0F22009A0F45 /* Frameworks */,
+				3E240E86280D0F22009A0F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E240E8A280D0F22009A0F45 /* PBXTargetDependency */,
+			);
+			name = PresensiFRZUITests;
+			productName = PresensiFRZUITests;
+			productReference = 3E240E88280D0F22009A0F45 /* PresensiFRZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E240E66280D0F1F009A0F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3E240E6D280D0F1F009A0F45 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3E240E7D280D0F22009A0F45 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3E240E6D280D0F1F009A0F45;
+					};
+					3E240E87280D0F22009A0F45 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3E240E6D280D0F1F009A0F45;
+					};
+				};
+			};
+			buildConfigurationList = 3E240E69280D0F1F009A0F45 /* Build configuration list for PBXProject "PresensiFRZ" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E240E65280D0F1F009A0F45;
+			productRefGroup = 3E240E6F280D0F1F009A0F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E240E6D280D0F1F009A0F45 /* PresensiFRZ */,
+				3E240E7D280D0F22009A0F45 /* PresensiFRZTests */,
+				3E240E87280D0F22009A0F45 /* PresensiFRZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E240E6C280D0F1F009A0F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E240E79280D0F22009A0F45 /* Preview Assets.xcassets in Resources */,
+				3E240E76280D0F22009A0F45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E240E7C280D0F22009A0F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E240E86280D0F22009A0F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E240E6A280D0F1F009A0F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E240E74280D0F1F009A0F45 /* ContentView.swift in Sources */,
+				3E15140B280E71EE00977257 /* ProfilePageView.swift in Sources */,
+				3E15140D280E721B00977257 /* EnterAbsentView.swift in Sources */,
+				3E240E72280D0F1F009A0F45 /* PresensiFRZApp.swift in Sources */,
+				3E151403280E6ACC00977257 /* HomePageView.swift in Sources */,
+				3E240E9C280D1E3C009A0F45 /* SplashScreenView.swift in Sources */,
+				3E15140F280E727300977257 /* OutAbsentView.swift in Sources */,
+				3E151407280E6B2000977257 /* SignUpView.swift in Sources */,
+				3E151409280E71A800977257 /* HistoryPage.swift in Sources */,
+				3E151405280E6AEF00977257 /* ForgotPasswordView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E240E7A280D0F22009A0F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E240E83280D0F22009A0F45 /* PresensiFRZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E240E84280D0F22009A0F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E240E8F280D0F22009A0F45 /* PresensiFRZUITestsLaunchTests.swift in Sources */,
+				3E240E8D280D0F22009A0F45 /* PresensiFRZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E240E80280D0F22009A0F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E240E6D280D0F1F009A0F45 /* PresensiFRZ */;
+			targetProxy = 3E240E7F280D0F22009A0F45 /* PBXContainerItemProxy */;
+		};
+		3E240E8A280D0F22009A0F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E240E6D280D0F1F009A0F45 /* PresensiFRZ */;
+			targetProxy = 3E240E89280D0F22009A0F45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E240E90280D0F22009A0F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E240E91280D0F22009A0F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E240E93280D0F22009A0F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PresensiFRZ/Preview Content\"";
+				DEVELOPMENT_TEAM = F3RG3858VJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nassta.PresensiFRZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E240E94280D0F22009A0F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PresensiFRZ/Preview Content\"";
+				DEVELOPMENT_TEAM = F3RG3858VJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nassta.PresensiFRZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E240E96280D0F22009A0F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nassta.PresensiFRZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresensiFRZ.app/PresensiFRZ";
+			};
+			name = Debug;
+		};
+		3E240E97280D0F22009A0F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nassta.PresensiFRZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresensiFRZ.app/PresensiFRZ";
+			};
+			name = Release;
+		};
+		3E240E99280D0F22009A0F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nassta.PresensiFRZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PresensiFRZ;
+			};
+			name = Debug;
+		};
+		3E240E9A280D0F22009A0F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nassta.PresensiFRZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PresensiFRZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E240E69280D0F1F009A0F45 /* Build configuration list for PBXProject "PresensiFRZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E240E90280D0F22009A0F45 /* Debug */,
+				3E240E91280D0F22009A0F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E240E92280D0F22009A0F45 /* Build configuration list for PBXNativeTarget "PresensiFRZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E240E93280D0F22009A0F45 /* Debug */,
+				3E240E94280D0F22009A0F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E240E95280D0F22009A0F45 /* Build configuration list for PBXNativeTarget "PresensiFRZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E240E96280D0F22009A0F45 /* Debug */,
+				3E240E97280D0F22009A0F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E240E98280D0F22009A0F45 /* Build configuration list for PBXNativeTarget "PresensiFRZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E240E99280D0F22009A0F45 /* Debug */,
+				3E240E9A280D0F22009A0F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E240E66280D0F1F009A0F45 /* Project object */;
+}
